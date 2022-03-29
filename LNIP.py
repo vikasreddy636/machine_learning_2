@@ -1,4 +1,4 @@
-import winsound,time
+import time
 import csv,os
 import cv2
 import numpy as np
@@ -11,8 +11,8 @@ from scipy.stats import itemfreq
 import warnings
 warnings.filterwarnings("ignore")
 
-normal_dirs = (r'')
-abnormal_dirs = (r'')
+normal_dirs = (r'/Users/vikasreddy/test1/cancer/Dataset_DDSM_database/Normal')
+abnormal_dirs = (r'/Users/vikasreddy/test1/cancer/Dataset_DDSM_database/Abnormal')
 nl = os.listdir(normal_dirs)
 abl = os.listdir(abnormal_dirs)
 
@@ -42,21 +42,18 @@ def lbp_histreturn(m):
 with open("normal.csv","a",newline='') as fp:
     wr=csv.writer(fp,dialect='excel')
     for i in nl:
-        k = lbp_histreturn(r'F:\\4th_Year_project_files\\Dataset_DDSM_database\\Normal\\'+i)
+        k = lbp_histreturn(r'/Users/vikasreddy/test1//cancer/Dataset_DDSM_database/Normal'+i)
         wr.writerow(k)
 
 print("Completed Normal")
-winsound.Beep(800,2000)
-time.sleep(2)
-winsound.Beep(800,2000)
+
+
         
 with open("abnormal.csv","a",newline='') as fp:
     wr=csv.writer(fp,dialect='excel')
     for i in abl:
-        k = lbp_histreturn(r'F:\\4th_Year_project_files\\Dataset_DDSM_database\\Abnormal\\'+i)
+        k = lbp_histreturn(r'/Users/vikasreddy/test1/cancer/Dataset_DDSM_database/Abnormal'+i)
         wr.writerow(k)
         
 print("Completed Abnormal")
-winsound.Beep(800,2000)
-time.sleep(2)
-winsound.Beep(800,2000)
+
