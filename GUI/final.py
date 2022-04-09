@@ -274,20 +274,20 @@ def file_path():
         verbose=False)
     classifier.fit(X_train,Y_train)
     SVM_pred = classifier.predict([final])
-    if(0 in SVM_pred):
-        text4 = tk.Label(root, text="ABNORMAL",fg = 'Red',font='Times 15').place(x=325,y=400)
-        text2 = tk.Label(root, text="Accuracy 97%",fg = 'Green',font='Times 13').place(x=325,y=450)
+    if( 1 in SVM_pred):
+        text4 = tk.Label(root, text="ABNORMAL",fg = 'white',font='Times 15').place(x=642,y=400)
+        text2 = tk.Label(root, text="Accuracy 97%",fg = 'white',font='Times 13').place(x=642,y=450)
     else:
-        text4 = tk.Label(root, text="Normal",fg = 'Green',font='Times 15').place(x=325,y=400)
-        text2 = tk.Label(root, text="Accuracy 97%",fg = 'Green',font='Times 13').place(x=325,y=450)
+        text4 = tk.Label(root, text="Normal",fg = 'white',font='Times 15').place(x=642,y=400)
+        text2 = tk.Label(root, text="Accuracy 97%",fg = 'white',font='Times 13').place(x=642,y=450)
         
 
 root.title('Final GUI Demo')
-actionBtn = tk.Button(root, text="Select Image", width=15, height=2, command=file_path).place(x=100, y=400)
-quitbtn = tk.Button(root, text="Quit", width=15, height=2, command=root.destroy).place(x=510, y=400)
+actionBtn = tk.Button(root, text="Select Image", width=15, height=2, command=file_path).place(x=300, y=400)
+quitbtn = tk.Button(root, text="Quit", width=15, height=2, command=root.destroy).place(x=810, y=400)
 
-text1 = tk.Label(root, text="GUI for predicting Breast cancer",fg = 'Green',font='Times 15 bold').place(x=225,y=260)
-text3 = tk.Label(root, text="Status",fg = 'black',font='Times 17').place(x=342,y=360)
+text1 = tk.Label(root, text="GUI for predicting Breast cancer",fg = 'white',font='Times 15 bold').place(x=295,y=160)
+text3 = tk.Label(root, text="Status",fg = 'white',font='Times 17').place(x=642,y=360)
 
 
 root.mainloop()
