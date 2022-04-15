@@ -34,7 +34,7 @@ Function kernel of the SVM classifier.
 
    instead of entire training you can use the pre trained data set which is in the main package addressed LNIP_super_all.csv. Clone the complete package from the github link
      
-    `https://github.com/vikasreddy636/machine_learning_2`
+   `https://github.com/vikasreddy636/machine_learning_2`
      
    .git which would have the complete package of the application
     which we have developed using the python. To run the code we should give the command 
