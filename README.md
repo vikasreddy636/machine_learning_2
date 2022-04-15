@@ -32,7 +32,7 @@ Function kernel of the SVM classifier.
       To run the code we should give the command 
       
                                           python3 classification.py
-      ![Screenshot 2022-04-15 at 11 51 06 AM (1)](https://user-images.githubusercontent.com/72270080/163556813-30a6ec14-c7d8-48d5-8c9e-7bd9075a2197.png)
+ ![Screenshot 2022-04-15 at 11 51 06 AM (1)](https://user-images.githubusercontent.com/72270080/163556813-30a6ec14-c7d8-48d5-8c9e-7bd9075a2197.png)
       Once the code input is given for further execution have included the screenshot for reference.
 
 
