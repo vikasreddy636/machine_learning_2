@@ -29,7 +29,7 @@ Function kernel of the SVM classifier.
 ## CODE EXECUTION PROCESS
       Download the dataset fom the given link
       
-      `https://unigeit-my.sharepoint.com/:f:/r/personal/s5061211_studenti_unige_it/Documents/ml2/Dataset_DDSM_database?csf=1&web=1&e=9i1Gm3`
+      ` https://unigeit-my.sharepoint.com/:f:/r/personal/s5061211_studenti_unige_it/Documents/ml2/Dataset_DDSM_database?csf=1&web=1&e=9i1Gm3 `
       
       instead of entire training you can use the pre trained data set which is in the main package addressed LNIP_super_all.csv.
       Clone the complete package from the github link
