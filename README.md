@@ -38,3 +38,5 @@ Function kernel of the SVM classifier.
  And for the graphical interface output attached the screenshot for reference
  ![Screenshot 2022-04-09 at 4 12 10 PM (1)](https://user-images.githubusercontent.com/72270080/163557526-f5fd3515-7061-4ee5-8f4e-b847d2d765a2.png)
 
+## RESULT
+   We have developed this and it can be implemented in the pepper robot architecture that would be helpful for the doctors and technician to give and get  feedback of cancer detection by scanned images.
