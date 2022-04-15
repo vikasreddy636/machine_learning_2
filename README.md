@@ -25,17 +25,12 @@ Function kernel of the SVM classifier.
 ## CLASSIFIERS USED
 
 MLP Classifier <br />
-Linear SVM
-
-Random Forest
-
-XG BOOST Classifier
-
-Naive Baye’s
-
-MLP Classifier
-
-Optimized RBF kernel
+Linear SVM <br />
+Random Forest <br />
+XG BOOST Classifier <br />
+Naive Baye’s <br />
+MLP Classifier <br />
+Optimized RBF kernel <br />
 
 ## PACKAGE DESCRIPTIION
 
