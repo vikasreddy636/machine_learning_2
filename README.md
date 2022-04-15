@@ -35,6 +35,6 @@ Function kernel of the SVM classifier.
  ![Screenshot 2022-04-15 at 11 51 06 AM (1)](https://user-images.githubusercontent.com/72270080/163556813-30a6ec14-c7d8-48d5-8c9e-7bd9075a2197.png)
       Once the code input is given for further execution have included the screenshot for reference.
 
- And for the grafical interface output attached the screenshot for reference
+ And for the graphical interface output attached the screenshot for reference
  ![Screenshot 2022-04-09 at 4 12 10 PM (1)](https://user-images.githubusercontent.com/72270080/163557526-f5fd3515-7061-4ee5-8f4e-b847d2d765a2.png)
 
