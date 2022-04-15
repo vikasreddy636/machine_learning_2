@@ -22,6 +22,15 @@ predict whether the patient is developing cancer or not. Unlike the conventional
 methods, we have used a unique texture descriptor called LNIP and Radial Basis
 Function kernel of the SVM classifier.
 
+## CLASSIFIERS USED
+MLP Classifier
+Linear SVM
+Random Forest
+XG BOOST Classifier
+Naive Baye’s
+MLP Classifier
+Optimized RBF kernel
+
 ## PACKAGE DESCRIPTIION
 
 ![MicrosoftTeams-image (2)](https://user-images.githubusercontent.com/72270080/163555016-e1c9fec3-f24a-4df5-b445-5674f25a1ab6.png)
