@@ -24,7 +24,7 @@ Function kernel of the SVM classifier.
 
 ## CLASSIFIERS USED
 
-MLP Classifier
+MLP Classifier <br />
 Linear SVM
 
 Random Forest
