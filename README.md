@@ -23,12 +23,19 @@ methods, we have used a unique texture descriptor called LNIP and Radial Basis
 Function kernel of the SVM classifier.
 
 ## CLASSIFIERS USED
+
 MLP Classifier
+
 Linear SVM
+
 Random Forest
+
 XG BOOST Classifier
+
 Naive Baye’s
+
 MLP Classifier
+
 Optimized RBF kernel
 
 ## PACKAGE DESCRIPTIION
