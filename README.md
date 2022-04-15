@@ -21,3 +21,18 @@ machine learning-based system that can analyze the mammogram output and can
 predict whether the patient is developing cancer or not. Unlike the conventional CNN
 methods, we have used a unique texture descriptor called LNIP and Radial Basis
 Function kernel of the SVM classifier.
+
+## PACKAGE DESCRIPTIION
+
+![MicrosoftTeams-image (2)](https://user-images.githubusercontent.com/72270080/163555016-e1c9fec3-f24a-4df5-b445-5674f25a1ab6.png)
+
+## CODE EXECUTION PROCESS
+      Download the dataset fom the given link https://unigeit-my.sharepoint.com/:f:/r/personal/s5061211_studenti_unige_it/Documents/ml2/Dataset_DDSM_database?csf=1&web=1&e=9i1Gm3 instead of entire training you can use the pre trained data set which is in the main package addressed LNIP_super_all.csv.
+      Clone the complete package from the github link https://github.com/vikasreddy636/machine_learning_2.git which would have the complete package of the application which we have developed using the python.
+      To run the code we should give the command 
+      
+                                          python3 classification.py
+      ![Screenshot 2022-04-15 at 11 51 06 AM (1)](https://user-images.githubusercontent.com/72270080/163556813-30a6ec14-c7d8-48d5-8c9e-7bd9075a2197.png)
+      Once the code input is given for further execution have included the screenshot for reference.
+
+
