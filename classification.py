@@ -74,7 +74,13 @@ print("Quality Index-> "+str(QI))
 accuracy = float(cm.diagonal().sum())/len(Y_test)
 print("Accuracy : ",accuracy*100)
 print("\n")
-
+ax = sns.heatmap(cm, annot=True, cmap='Blues')
+ax.set_title('cm of rbf');
+ax.set_xlabel('\nPredicted Values')
+ax.set_ylabel('Actual Values ');
+ax.xaxis.set_ticklabels(['True','True'])
+ax.yaxis.set_ticklabels(['False','True'])
+plt.show()
 #################Optimized SVM with RBF Kernel###############
 #For getting 98% accuracy feed C=1100 and Gamma = 1000
 #         https://scikit-learn.org/0.18/modules/generated/sklearn.svm.NuSVC.html
