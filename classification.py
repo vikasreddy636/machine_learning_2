@@ -74,12 +74,18 @@ print("Quality Index-> "+str(QI))
 accuracy = float(cm.diagonal().sum())/len(Y_test)
 print("Accuracy : ",accuracy*100)
 print("\n")
-ax = sns.heatmap(cm, annot=True, cmap='Blues')
-ax.set_title('cm of rbf');
-ax.set_xlabel('\nPredicted Values')
-ax.set_ylabel('Actual Values ');
-ax.xaxis.set_ticklabels(['True','True'])
-ax.yaxis.set_ticklabels(['False','True'])
+#
+# Print the confusion matrix using Matplotlib
+#
+fig, ax = plt.subplots(figsize=(7.5, 7.5))
+ax.matshow(cm, cmap=plt.cm.Blues, alpha=0.3)
+for i in range(cm.shape[0]):
+    for j in range(cm.shape[1]):
+        ax.text(x=j, y=i,s=cm[i, j], va='center', ha='center', size='xx-large')
+ 
+plt.xlabel('Predictions', fontsize=18)
+plt.ylabel('Actuals', fontsize=18)
+plt.title('Confusion Matrix', fontsize=18)
 plt.show()
 #################Optimized SVM with RBF Kernel###############
 #For getting 98% accuracy feed C=1100 and Gamma = 1000
